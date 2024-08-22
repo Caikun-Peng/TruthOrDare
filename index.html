@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Truth</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <div id="random-result">
-        <!-- The random result will be injected here after button click -->
-    </div>
 
-    <div>
-        <button id="show-random-value">Show Question</button>
+<body>
+    <div class="fixed-header">
+        <h2>真心话</h2>
+    </div>
+    <div class="content">
+        <div id="random-result">
+            <!-- The random result will be injected here after button click -->
+        </div>
+
+        <div>
+            <button id="show-random-value">Show Question</button>
+        </div>
+        <label>
+            <input type="checkbox" id="prevent-repeats"> Prevent repeats
+        </label>
     </div>
     <!-- 引用外部的 JavaScript 文件 -->
     <script src="js/main.js"></script>
 </body>
+
 </html>
