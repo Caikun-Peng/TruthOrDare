@@ -1,5 +1,5 @@
 function injectRandomValue() {
-    fetch("../data/Truth.json")
+    fetch("../TruthOrDare/data/Truth.json")
         .then(response => response.json())
         .then(data => {
             // 获取所有的键（数字）
